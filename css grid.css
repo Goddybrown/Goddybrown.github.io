@@ -1,0 +1,36 @@
+}
+body{
+    background-image: url(brown/back.jpg);
+}
+.navbar{
+    background-color: red;
+    overflow: hidden;
+    padding: 5px;
+}
+.navbar-left{
+    float: left;
+    background-color: aliceblue;
+}
+.navbar-right{
+    float: right;
+}
+.navbar-right a:hover{
+    background-color: white;
+    color: red;
+}
+h1{
+    border-bottom: 3px solid red;
+    display: inline-block;
+    border-right: 3px solid red;
+}
+img{
+    height: 150px;
+    width: 150px;
+    background-color: beige;
+}
+.grid{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+gap: 10px; 
+background-color: rgba(14, 5, 5, 0.651);  
+}

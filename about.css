@@ -1,0 +1,9 @@
+*{
+    padding: 0px;
+    margin: 4px 8px;
+    background-color: rgba(238, 42, 245, 0.692);
+}
+li{
+    text-align: right;
+    list-style: none;
+}

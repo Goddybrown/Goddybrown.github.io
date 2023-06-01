@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 2px 0px;
+}
+body{
+    background-image: url(image/1.jpg);
+}
+
+.topbar{
+    background-color: whitesmoke;
+    overflow: hidden;
+    padding: 6px;
+}
+.topbar-right{
+    float: right;
+    font-size: 14px;
+}
+.topbar a{
+    padding: 5px ;
+    text-decoration: none;
+}
+.topbar a:hover{
+    background: red;
+    color: white;
+}
+
+section{
+    background-color: rgba(0, 128, 79, 0.589);
+    position: sticky;
+    width: 60%;
+}
+
+h1{
+    text-align: center;
+}
+
+footer{
+    background-color: white;
+    height: 40px;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    transition: bottom 0.2s ease-in-out;
+    width: 100%;
+}
+
+h4{
+    background-color: rgb(0, 128, 53);
+    color: white;
+    display: inline-block
+}
